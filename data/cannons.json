@@ -26,6 +26,8 @@
     "max_tnt": {
       "property_name": "Max TNT",
       "property_description": "",
+      "default_value": null,
+      "default_selection": false,
       "relative_gradient": true,
       "entries": {
         "FTL": "",
@@ -42,6 +44,8 @@
     "duper_size": {
       "property_name": "Duper Size",
       "property_description": "",
+      "default_value": null,
+      "default_selection": false,
       "relative_gradient": true,
       "entries": {
         "FTL": "",
@@ -58,6 +62,8 @@
     "delta_y": {
       "property_name": "Delta Y",
       "property_description": "",
+      "default_value": null,
+      "default_selection": false,
       "relative_gradient": true,
       "entries": {
         "FTL": "",
@@ -74,6 +80,8 @@
     "encoding": {
       "property_name": "Encoding",
       "property_description": "",
+      "default_value": null,
+      "default_selection": false,
       "entries": {
         "FTL": "",
         "360 FTL": "Delay",
