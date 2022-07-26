@@ -28,7 +28,7 @@
     "credits": {
       "property_name": "Credits",
       "property_description": "",
-      "default_value": null,
+      "default_value": "Unspecified",
       "default_selection": false,
       "entries": {
         "FTL": {
@@ -72,7 +72,7 @@
           "2no2name": "Big idea guy",
           "Invokespecial": "Russian hacker",
           "luuuuuuuuuul": "",
-          "Hekate": "Bestest fraiends </3"
+          "Hekate": "Bestest fraiends"
         },
         "588 FTL": {
           "lntricate": "BED encoding, stacking dupers, alignment",
@@ -97,13 +97,14 @@
           "Infra84": "Instant wires",
           "Kahyxen": "Instant wires",
           "lntricate": "Dupers, Alignment, Basket"
-        }
+        },
+        "720 FTL-BEDN": ["JustDoItWE", "HuangChun", "MasCi1E_Teqze", "黃東Aircross", "LegendsOfSky"]
       }
     },
     "max_tnt": {
       "property_name": "Max TNT",
       "property_description": "",
-      "default_value": null,
+      "default_value": "Unspecified",
       "default_selection": false,
       "relative_gradient": true,
       "entries": {
@@ -111,17 +112,18 @@
         "360 FTL": "Unspecified",
         "420 FTL": 5742,
         "360 FTL HEAVY": 3640,
-        "End Cannon": "100k+",
-        "Void Cannon": "30M+",
+        "End Cannon": "100000+",
+        "Void Cannon": "30000000+",
         "588 FTL": 7070,
         "588 FTL-N": 7070,
-        "672 FTL": 9428
+        "672 FTL": 9428,
+        "720 FTL-BEDN": 6240
       }
     },
     "duper_size": {
       "property_name": "Duper Size",
       "property_description": "",
-      "default_value": null,
+      "default_value": "Unspecified",
       "default_selection": false,
       "relative_gradient": true,
       "entries": {
@@ -133,13 +135,14 @@
         "Void Cannon": 286,
         "588 FTL": 588,
         "588 FTL-N": 588,
-        "672 FTL": 672
+        "672 FTL": 672,
+        "720 FTL-BEDN": 1040
       }
     },
     "delta_y": {
       "property_name": "Delta Y",
       "property_description": "",
-      "default_value": null,
+      "default_value": "Unspecified",
       "default_selection": false,
       "relative_gradient": true,
       "entries": {
@@ -151,16 +154,17 @@
         "Void Cannon": "Unspecified",
         "588 FTL": "Unspecified",
         "588 FTL-N": "Unspecified",
-        "672 FTL": "Unspecified"
+        "672 FTL": "Unspecified",
+        "720 FTL-BEDN": "Unspecified"
       }
     },
     "encoding": {
       "property_name": "Encoding",
       "property_description": "",
-      "default_value": null,
+      "default_value": "Unspecified",
       "default_selection": false,
       "entries": {
-        "FTL": "",
+        "FTL": "None",
         "360 FTL": "Delay",
         "420 FTL": "Delay",
         "360 FTL HEAVY": "Delay",
@@ -168,7 +172,8 @@
         "Void Cannon": "Hardcoded",
         "588 FTL": "BED",
         "588 FTL-N": "Delay",
-        "672 FTL": "BED"
+        "672 FTL": "BED",
+        "720 FTL-BEDN": "BED"
       }
     }
   }

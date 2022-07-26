@@ -557,7 +557,7 @@ function display_results() {
                         return output_obj;
                     }
                 } else {
-                    input_element = input_element ?? property.default_value ?? "No defualt value has been assigned.";
+                    input_element = input_element ?? property.default_value ?? "No default value has been assigned.";
                     if (input_element * 1 == input_element && size_factor !== 1) {
                         input_element *= size_factor;
                     }
