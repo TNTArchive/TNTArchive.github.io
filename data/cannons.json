@@ -1,7 +1,7 @@
 {
   "conditional_formatting": {
     "Yes": "cf-yes",
-    "No": "cf-no",
+    "No": "cf-no"
   },
   "key_list": [
     "FTL",
