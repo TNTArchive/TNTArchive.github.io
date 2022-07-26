@@ -12,17 +12,94 @@
     "Void Cannon",
     "588 FTL",
     "588 FTL-N",
-    "672 FTL"
+    "672 FTL",
+    "720 FTL-BEDN"
   ],
   "sprites": {
   },
   "property_structure": [
+    "credits",
     "max_tnt",
     "duper_size",
     "encoding",
     "delta_y"
   ],
   "properties": {
+    "credits": {
+      "property_name": "Credits",
+      "property_description": "",
+      "default_value": null,
+      "default_selection": false,
+      "entries": {
+        "FTL": {
+          "Xcom": "Shameless self proclaimed project leader",
+          "TDL": "Surfer dude that edited the video",
+          "Methodzz": "TNT whisperer",
+          "Eta": "Update order guru",
+          "Ilmango": "Master of redstone",
+          "EnemysFriend": "Compactor of things",
+          "Gnembon": "Coding wizard",
+          "Helvince": "The finisher",
+          "OreoLamp": "Idea factory",
+          "PallaPalla": "The llama engineer",
+          "Ragou": "Punmaster",
+          "theosib": "Martian",
+          "NarcolepticFrog": "My dealer"
+        },
+        "360 FTL": {
+          "Xcom": "Shameless self proclaimed project leader",
+          "Rechenmaschine": "Inspiration, 360 concept",
+          "RedCMD": "Encoding",
+          "Kayleigh": "Instant comparator lines",
+          "Ornariece": "Command block magic"
+        },
+        "420 FTL": {
+          "Xcom": "Shameless self proclaimed project leader",
+          "_GPW_": "Duper arrays, design",
+          "Kuiri": "Survival cannon decoration",
+          "PrgmTrouble": "Survival cannon decoration",
+          "Rechenmaschine": "Basket concept"
+        },
+        "360 FTL HEAVY": ["Fallen_Breath", "Flowerstarry_sky"],
+        "End Cannon": "Xcom",
+        "Void Cannon": {
+          "Kman": "Demolition expert",
+          "HDanke": "Logicman",
+          "theGlotzerify": "Cameraman",
+          "PrgmTrouble": "Mr fixer",
+          "Comet107": "Nicest guy",
+          "_GPW_": "To good for MC",
+          "2no2name": "Big idea guy",
+          "Invokespecial": "Russian hacker",
+          "luuuuuuuuuul": "",
+          "Hekate": "Bestest fraiends </3"
+        },
+        "588 FTL": {
+          "lntricate": "BED encoding, stacking dupers, alignment",
+          "Sylkos": "Stacking dupers, alignment",
+          "Xyor": "Duper wiring",
+          "PrgmTrouble": "Compression",
+          "DatNerd": "Button panel",
+          "Whats2000_": "Stacking dupers, calculator",
+          "LegendsOfSky": "Stacking dupers, pearl calculator",
+          "StatoMillow9487": "Stacking dupers",
+          "yampig_413": "Stacking dupers"
+        },
+        "588 FTL-N": {
+          "Whats2000_": "Stacking dupers, Panel, ROM, calculator",
+          "LegendsOfSky": "Stacking dupers, Panel, Encoding, pearl calculator",
+          "lntricate": "Stacking dupers, alignment",
+          "Sylkos": "Stacking dupers, alignment"
+        },
+        "672 FTL": {
+          "_EmirX": "Dupers, Alignment, Basket, Panel, ROM, Encoding",
+          "Attila_00": "Dupers",
+          "Infra84": "Instant wires",
+          "Kahyxen": "Instant wires",
+          "lntricate": "Dupers, Alignment, Basket"
+        }
+      }
+    },
     "max_tnt": {
       "property_name": "Max TNT",
       "property_description": "",
@@ -30,12 +107,12 @@
       "default_selection": false,
       "relative_gradient": true,
       "entries": {
-        "FTL": "",
-        "360 FTL": "",
+        "FTL": "Unspecified",
+        "360 FTL": "Unspecified",
         "420 FTL": 5742,
         "360 FTL HEAVY": 3640,
-        "End Cannon": "",
-        "Void Cannon": "",
+        "End Cannon": "100k+",
+        "Void Cannon": "30M+",
         "588 FTL": 7070,
         "588 FTL-N": 7070,
         "672 FTL": 9428
@@ -48,11 +125,11 @@
       "default_selection": false,
       "relative_gradient": true,
       "entries": {
-        "FTL": "",
+        "FTL": "Unspecified",
         "360 FTL": 260,
         "420 FTL": 286,
-        "360 FTL HEAVY": "",
-        "End Cannon": "",
+        "360 FTL HEAVY": 260,
+        "End Cannon": "Not Applicable",
         "Void Cannon": 286,
         "588 FTL": 588,
         "588 FTL-N": 588,
@@ -66,15 +143,15 @@
       "default_selection": false,
       "relative_gradient": true,
       "entries": {
-        "FTL": "",
-        "360 FTL": "",
-        "420 FTL": "",
-        "360 FTL HEAVY": "",
-        "End Cannon": "",
-        "Void Cannon": "",
-        "588 FTL": "",
-        "588 FTL-N": "",
-        "672 FTL": ""
+        "FTL": "Unspecified",
+        "360 FTL": "Unspecified",
+        "420 FTL": "Unspecified",
+        "360 FTL HEAVY": "Unspecified",
+        "End Cannon": "Unspecified",
+        "Void Cannon": "Unspecified",
+        "588 FTL": "Unspecified",
+        "588 FTL-N": "Unspecified",
+        "672 FTL": "Unspecified"
       }
     },
     "encoding": {
