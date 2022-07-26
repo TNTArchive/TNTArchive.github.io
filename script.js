@@ -51,16 +51,13 @@ let page, entry_header, exportable_list;
 function load_data(filename) {
     page = document.body.dataset.page;
     switch (page) {
-        case "block":
-            entry_header = "Blocks";
+        case "cannons":
+            entry_header = "Cannons";
             break;
 
-        case "entity":
-            entry_header = "Entities";
+        case "dupers":
+            entry_header = "Dupers";
             break;
-
-        case "item":
-            entry_header = "Items";
     }
 
     initialize_page();
