@@ -1,19 +1,7 @@
 {
   "conditional_formatting": {
     "Yes": "cf-yes",
-    "NORMAL": "cf-yes",
-
     "No": "cf-no",
-    "None": "cf-no",
-    "BLOCK": "cf-no",
-
-    "DESTROY": "cf-neutral",
-
-    "PUSH_ONLY": "cf-neutral-no",
-
-    "Not Applicable": "cf-invalid",
-    "∞": "cf-invalid",
-    "Unbreakable": "cf-invalid"
   },
   "key_list": [
     "FTL",
@@ -40,12 +28,12 @@
       "property_description": "",
       "relative_gradient": true,
       "entries": {
-        "FTL": null,
-        "360 FTL": null,
+        "FTL": "",
+        "360 FTL": "",
         "420 FTL": 5742,
         "360 FTL HEAVY": 3640,
-        "End Cannon": null,
-        "Void Cannon": null,
+        "End Cannon": "",
+        "Void Cannon": "",
         "588 FTL": 7070,
         "588 FTL-N": 7070,
         "672 FTL": 9428
@@ -56,11 +44,11 @@
       "property_description": "",
       "relative_gradient": true,
       "entries": {
-        "FTL": null,
+        "FTL": "",
         "360 FTL": 260,
         "420 FTL": 286,
-        "360 FTL HEAVY": null,
-        "End Cannon": null,
+        "360 FTL HEAVY": "",
+        "End Cannon": "",
         "Void Cannon": 286,
         "588 FTL": 588,
         "588 FTL-N": 588,
@@ -72,22 +60,22 @@
       "property_description": "",
       "relative_gradient": true,
       "entries": {
-        "FTL": null,
-        "360 FTL": null,
-        "420 FTL": null,
-        "360 FTL HEAVY": null,
-        "End Cannon": null,
-        "Void Cannon": null,
-        "588 FTL": null,
-        "588 FTL-N": null,
-        "672 FTL": null
+        "FTL": "",
+        "360 FTL": "",
+        "420 FTL": "",
+        "360 FTL HEAVY": "",
+        "End Cannon": "",
+        "Void Cannon": "",
+        "588 FTL": "",
+        "588 FTL-N": "",
+        "672 FTL": ""
       }
     },
     "encoding": {
       "property_name": "Encoding",
       "property_description": "",
       "entries": {
-        "FTL": null,
+        "FTL": "",
         "360 FTL": "Delay",
         "420 FTL": "Delay",
         "360 FTL HEAVY": "Delay",
