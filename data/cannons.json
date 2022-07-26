@@ -1,0 +1,94 @@
+{
+  "conditional_formatting": {
+    "Yes": "cf-yes",
+    "NORMAL": "cf-yes",
+
+    "No": "cf-no",
+    "None": "cf-no",
+    "BLOCK": "cf-no",
+
+    "DESTROY": "cf-neutral",
+
+    "PUSH_ONLY": "cf-neutral-no",
+
+    "Not Applicable": "cf-invalid",
+    "∞": "cf-invalid",
+    "Unbreakable": "cf-invalid"
+  },
+  "key_list": [
+    "ADD HERE"
+  ],
+  "sprites": {
+  },
+  "property_structure": [
+    "max_tnt",
+    "duper_size",
+    "encoding",
+    "delta_y"
+  ],
+  "properties": {
+    "max_tnt": {
+      "property_name": "Max TNT",
+      "property_description": "",
+      "relative_gradient": true,
+      "entries": {
+        "FTL": null,
+        "360 FTL": null,
+        "420 FTL": 5742,
+        "360 FTL HEAVY": 3640,
+        "End Cannon": null,
+        "Void Cannon": null,
+        "588 FTL": 7070,
+        "588 FTL-N": 7070,
+        "672 FTL": 9428
+      }
+    },
+    "duper_size": {
+      "property_name": "Duper Size",
+      "property_description": "",
+      "relative_gradient": true,
+      "entries": {
+        "FTL": null,
+        "360 FTL": 260,
+        "420 FTL": 286,
+        "360 FTL HEAVY": null,
+        "End Cannon": null,
+        "Void Cannon": 286,
+        "588 FTL": 588,
+        "588 FTL-N": 588,
+        "672 FTL": 672
+      }
+    },
+    "delta_y": {
+      "property_name": "Delta Y",
+      "property_description": "",
+      "relative_gradient": true,
+      "entries": {
+        "FTL": null,
+        "360 FTL": null,
+        "420 FTL": null,
+        "360 FTL HEAVY": null,
+        "End Cannon": null,
+        "Void Cannon": null,
+        "588 FTL": null,
+        "588 FTL-N": null,
+        "672 FTL": null
+      }
+    },
+    "encoding": {
+      "property_name": "Encoding",
+      "property_description": "",
+      "entries": {
+        "FTL": null,
+        "360 FTL": "Delay",
+        "420 FTL": "Delay",
+        "360 FTL HEAVY": "Delay",
+        "End Cannon": "Hardcoded",
+        "Void Cannon": "Hardcoded",
+        "588 FTL": "BED",
+        "588 FTL-N": "Delay",
+        "672 FTL": "BED"
+      }
+    }
+  }
+}
