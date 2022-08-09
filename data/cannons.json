@@ -21,6 +21,7 @@
     "credits",
     "max_tnt",
     "duper_size",
+    "duper_type",
     "encoding",
     "delta_y"
   ],
@@ -131,12 +132,31 @@
         "360 FTL": 260,
         "420 FTL": 286,
         "360 FTL HEAVY": 260,
-        "End Cannon": "Not Applicable",
+        "End Cannon": 1600,
         "Void Cannon": 286,
         "588 FTL": 588,
         "588 FTL-N": 588,
         "672 FTL": 672,
         "720 FTL-BEDN": 1040
+      }
+    },
+    "duper_type": {
+      "property_name": "Duper Type",
+      "property_description": "",
+      "default_value": "Unspecified",
+      "default_selection": false,
+      "relative_gradient": false,
+      "entries": {
+        "FTL": "Unspecified",
+        "360 FTL": "Flat/Slime bars",
+        "420 FTL": "Flat/Slime bars",
+        "360 FTL HEAVY": "Flat/Slime bars",
+        "End Cannon": "Dispensers",
+        "Void Cannon": "Flat/Slime bars",
+        "588 FTL": "Stacked/Slime bars",
+        "588 FTL-N": "Stacked/Slime bars",
+        "672 FTL": "Stacked/Slime bars",
+        "720 FTL-BEDN": "Flat/Slime bars"
       }
     },
     "delta_y": {
