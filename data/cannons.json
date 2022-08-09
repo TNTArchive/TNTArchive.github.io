@@ -13,6 +13,7 @@
     "588 FTL",
     "588 FTL-N",
     "672 FTL",
+    "Day 6 Cannon",
     "720 FTL-BEDN"
   ],
   "sprites": {
@@ -49,14 +50,14 @@
         },
         "360 FTL": {
           "Xcom": "Shameless self proclaimed project leader",
-          "Rechenmaschine": "Inspiration, 360 concept",
+          "Rechenmaschine": ["Inspiration", "360 concept"],
           "RedCMD": "Encoding",
           "Kayleigh": "Instant comparator lines",
           "Ornariece": "Command block magic"
         },
         "420 FTL": {
           "Xcom": "Shameless self proclaimed project leader",
-          "_GPW_": "Duper arrays, design",
+          "_GPW_": ["Duper arrays", "design"],
           "Kuiri": "Survival cannon decoration",
           "PrgmTrouble": "Survival cannon decoration",
           "Rechenmaschine": "Basket concept"
@@ -76,28 +77,35 @@
           "Hekate": "Bestest fraiends"
         },
         "588 FTL": {
-          "lntricate": "BED encoding, stacking dupers, alignment",
-          "Sylkos": "Stacking dupers, alignment",
+          "lntricate": ["BED encoding", "stacking dupers", "alignment"],
+          "Sylkos": ["Stacking dupers", "alignment"],
           "Xyor": "Duper wiring",
           "PrgmTrouble": "Compression",
           "DatNerd": "Button panel",
-          "Whats2000_": "Stacking dupers, calculator",
-          "LegendsOfSky": "Stacking dupers, pearl calculator",
+          "Whats2000_": ["Stacking dupers", "calculator"],
+          "LegendsOfSky": ["Stacking dupers", "pearl calculator"],
           "StatoMillow9487": "Stacking dupers",
           "yampig_413": "Stacking dupers"
         },
         "588 FTL-N": {
-          "Whats2000_": "Stacking dupers, Panel, ROM, calculator",
-          "LegendsOfSky": "Stacking dupers, Panel, Encoding, pearl calculator",
-          "lntricate": "Stacking dupers, alignment",
-          "Sylkos": "Stacking dupers, alignment"
+          "Whats2000_": ["Stacking dupers", "Panel", "ROM", "calculator"],
+          "LegendsOfSky": ["Stacking dupers", "Panel", "Encoding", "pearl calculator"],
+          "lntricate": ["Stacking dupers", "alignment"],
+          "Sylkos": ["Stacking dupers", "alignment"]
         },
         "672 FTL": {
-          "_EmirX": "Dupers, Alignment, Basket, Panel, ROM, Encoding",
+          "_EmirX": ["Dupers", "Alignment", "Basket", "Panel", "ROM", "Encoding"],
           "Attila_00": "Dupers",
           "Infra84": "Instant wires",
           "Kahyxen": "Instant wires",
-          "lntricate": "Dupers, Alignment, Basket"
+          "lntricate": ["Dupers", "Alignment", "Basket"]
+        },
+        "Day 6 Cannon": {
+          "Enbyd": ["Encoding", "Alignment", "ROM"],
+          "Schmoe_mc": ["ROM", "Input"]
+          "Sylkos": ["Encoding", "ROM"],
+          "DatNerd": "Encoding",
+          "lntricate": ["Encoding", "ROM", "Input", "Alignment"]
         },
         "720 FTL-BEDN": ["JustDoItWE", "HuangChun", "MasCi1E_Teqze", "黃東Aircross", "LegendsOfSky"]
       }
@@ -172,8 +180,8 @@
         "360 FTL HEAVY": "Unspecified",
         "End Cannon": "Unspecified",
         "Void Cannon": "Unspecified",
-        "588 FTL": "Unspecified",
-        "588 FTL-N": "Unspecified",
+        "588 FTL": "-0.001523605937507",
+        "588 FTL-N": "-0.001523605937507",
         "672 FTL": "Unspecified",
         "720 FTL-BEDN": "Unspecified"
       }
