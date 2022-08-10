@@ -12,8 +12,8 @@
     "Void Cannon",
     "588 FTL",
     "588 FTL-N",
-    "672 FTL",
     "Day 6 Cannon",
+    "672 FTL",
     "720 FTL-BEDN"
   ],
   "sprites": {
@@ -102,7 +102,7 @@
         },
         "Day 6 Cannon": {
           "Enbyd": ["Encoding", "Alignment", "ROM"],
-          "Schmoe_mc": ["ROM", "Input"]
+          "Schmoe_mc": ["ROM", "Input"],
           "Sylkos": ["Encoding", "ROM"],
           "DatNerd": "Encoding",
           "lntricate": ["Encoding", "ROM", "Input", "Alignment"]
@@ -126,6 +126,7 @@
         "588 FTL": 7070,
         "588 FTL-N": 7070,
         "672 FTL": 9428,
+        "Day 6 Cannon": 7070,
         "720 FTL-BEDN": 6240
       }
     },
@@ -145,6 +146,7 @@
         "588 FTL": 588,
         "588 FTL-N": 588,
         "672 FTL": 672,
+        "Day 6 Cannon": 588,
         "720 FTL-BEDN": 1040
       }
     },
@@ -164,6 +166,7 @@
         "588 FTL": "Stacked/Slime bars",
         "588 FTL-N": "Stacked/Slime bars",
         "672 FTL": "Stacked/Slime bars",
+        "Day 6 Cannon": "Stacked/Slime bars",
         "720 FTL-BEDN": "Flat/Slime bars"
       }
     },
@@ -179,10 +182,18 @@
         "420 FTL": "Unspecified",
         "360 FTL HEAVY": "Unspecified",
         "End Cannon": "Unspecified",
-        "Void Cannon": "Unspecified",
-        "588 FTL": "-0.001523605937507",
-        "588 FTL-N": "-0.001523605937507",
+       "Void Cannon": "Unspecified",
+        "588 FTL": {
+          "Pearl": -0.001523605937507
+        },
+        "588 FTL-N": {
+          "Pearl": -0.001523605937507
+        },
         "672 FTL": "Unspecified",
+        "Day 6 Cannon": {
+          "Pearl": 0.000033675387967946335,
+          "Player": -0.00005026682741515742
+        },
         "720 FTL-BEDN": "Unspecified"
       }
     },
@@ -201,6 +212,7 @@
         "588 FTL": "BED",
         "588 FTL-N": "Delay",
         "672 FTL": "BED",
+        "Day 6 Cannon": "BED",
         "720 FTL-BEDN": "BED"
       }
     }
