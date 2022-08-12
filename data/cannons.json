@@ -29,6 +29,7 @@
     "duper_type",
     "encoding",
     "speed",
+    "rom-size",
     "delta_y"
   ],
   "properties": {
@@ -173,7 +174,7 @@
         "End Cannon": "100000+ (lazy)",
         "Void Cannon": "30000000+ (lazy)",
         "588 FTL": 7070,
-        "588 FTL-N": 7070,
+        "588 FTL-N": 8246,
         "672 FTL": 9428,
         "Day 6 Cannon": 7070,
         "720FTL": 4320,
@@ -244,6 +245,28 @@
         "Day 6 Cannon": "Unspecified",
         "720FTL": "Unspecified",
         "720FTL-BED": 127,
+        "720FTL-BEDN": 90
+      }
+    },
+    "rom-size": {
+      "property_name": "Rom Size",
+      "property_description": "",
+      "default_value": "Unspecified",
+      "default_selection": true,
+      "relative_gradient": true,
+      "entries": {
+        "FTL": "NA",
+        "360 FTL": 75,
+        "420 FTL": 75,
+        "360 FTL HEAVY": 75,
+        "End Cannon": "NA",
+        "Void Cannon": "NA",
+        "588 FTL": "90+",
+        "588 FTL-N": 225,
+        "672 FTL": "120+",
+        "Day 6 Cannon": "128+",
+        "720FTL": 90,
+        "720FTL-BED": 90,
         "720FTL-BEDN": 90
       }
     },
