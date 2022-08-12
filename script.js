@@ -861,7 +861,7 @@ function formatting_color(value, property_name, class_exists = false) {
         let hue, sat, lum;
         let hslA, hslB;
         let scale_value;
-        if (value * 1 == value) {
+        if (isNum(value)) {
             scale_value = value * 1;
 
             hslA = [276, 55, 66];
@@ -1018,4 +1018,9 @@ function scrollToTop() {
 
 function stopPromo() {
     localStorage.setItem("MCProperty-discord-promoted", true)
+}
+
+function isNum(val){
+    if(val === "") return false;
+    return !isNaN(val)
 }
