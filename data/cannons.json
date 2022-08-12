@@ -14,24 +14,71 @@
     "588 FTL-N",
     "Day 6 Cannon",
     "672 FTL",
-    "720 FTL-BEDN"
+    "720FTL",
+    "720FTL-BED",
+    "720FTL-BEDN"
   ],
   "sprites": {
   },
   "property_structure": [
+    "versions",
+    "video",
     "credits",
     "total_tnt",
     "duper_size",
     "duper_type",
     "encoding",
+    "speed",
     "delta_y"
   ],
   "properties": {
+    "versions": {
+      "property_name": "Game Versions",
+      "property_description": "",
+      "default_value": "Unspecified",
+      "default_selection": true,
+      "relative_gradient": false,
+      "entries": {
+        "FTL": ["1.12"],
+        "360 FTL": ["1.12"],
+        "420 FTL": ["1.12"],
+        "360 FTL HEAVY": ["1.13.2", "1.14", "1.15", "1.16.1", "1.16.2~5", "1.17", "1.18", "1.19"],
+        "End Cannon": ["1.12"],
+        "Void Cannon": ["1.12"],
+        "588 FTL": ["1.16.2~5", "1.17", "1.18", "1.19"],
+        "588 FTL-N": ["1.16.2~5", "1.17", "1.18", "1.19"],
+        "672 FTL": ["1.14", "1.15", "1.16.1", "1.16.2~5", "1.17", "1.18", "1.19"],
+        "Day 6 Cannon": ["1.16.2~5", "1.17", "1.18", "1.19"],
+        "720FTL": ["1.14", "1.15", "1.16.1"],
+        "720FTL-BED": ["1.14", "1.15", "1.16.1", "1.16.2~5", "1.17", "1.18", "1.19"],
+        "720FTL-BEDN": ["1.14", "1.15"]
+      }
+    },
+    "video": {
+      "property_name": "Video Link",
+      "property_description": "",
+      "default_value": "Unspecified",
+      "default_selection": true,
+      "relative_gradient": false,
+      "entries": {
+        "FTL": "https://youtu.be/_eOIVPQYOt8",
+        "360 FTL": "https://youtu.be/yWVp9tdpQ2E",
+        "420 FTL": "https://youtu.be/rIRTeVUhFGs",
+        "360 FTL HEAVY": "https://youtu.be/1_MLMXVpHbU",
+        "End Cannon": "https://youtu.be/79Cqxz1-2f8",
+        "Void Cannon": "https://youtu.be/NRZgujUiseU",
+        "588 FTL": "https://youtu.be/LaFzDU9TGeM",
+        "588 FTL-N": "https://youtu.be/4smKw7X3wtM",
+        "672 FTL": "https://youtu.be/PSZrJF_poWk",
+        "Day 6 Cannon": "Unspecified",
+        "720FTL-BEDN": "https://www.bilibili.com/video/BV1QQ4y1r7dT"
+      }
+    },
     "credits": {
       "property_name": "Credits",
       "property_description": "",
       "default_value": "Unspecified",
-      "default_selection": false,
+      "default_selection": true,
       "entries": {
         "FTL": {
           "Xcom": "Shameless self proclaimed project leader",
@@ -107,14 +154,16 @@
           "DatNerd": "Encoding",
           "lntricate": ["Encoding", "ROM", "Input", "Alignment"]
         },
-        "720 FTL-BEDN": ["JustDoItWE", "HuangChun", "MasCi1E_Teqze", "黃東Aircross", "LegendsOfSky"]
+        "720FTL": ["JustDoItWE", "HuangChun", "MasCi1E_Teqze", "黃東Aircross", "LegendsOfSky"],
+        "720FTL-BED": ["JustDoItWE", "WangTurle", "MasCi1E_Teqze"],
+        "720FTL-BEDN": ["JustDoItWE", "HuangChun", "MasCi1E_Teqze", "黃東Aircross", "LegendsOfSky"]
       }
     },
     "total_tnt": {
       "property_name": "Total TNT",
       "property_description": "",
       "default_value": "Unspecified",
-      "default_selection": false,
+      "default_selection": true,
       "relative_gradient": true,
       "entries": {
         "FTL": "Unspecified",
@@ -127,14 +176,16 @@
         "588 FTL-N": 7070,
         "672 FTL": 9428,
         "Day 6 Cannon": 7070,
-        "720 FTL-BEDN": 6240
+        "720FTL": 4320,
+        "720FTL-BED": 8400,
+        "720FTL-BEDN": 6240
       }
     },
     "duper_size": {
       "property_name": "Duper Size",
       "property_description": "",
       "default_value": "Unspecified",
-      "default_selection": false,
+      "default_selection": true,
       "relative_gradient": true,
       "entries": {
         "FTL": "Unspecified",
@@ -147,14 +198,16 @@
         "588 FTL-N": 588,
         "672 FTL": 672,
         "Day 6 Cannon": 588,
-        "720 FTL-BEDN": 1040
+        "720FTL": 840,
+        "720FTL-BED": 840,
+        "720FTL-BEDN": 1040
       }
     },
     "duper_type": {
       "property_name": "Duper Type",
       "property_description": "",
       "default_value": "Unspecified",
-      "default_selection": false,
+      "default_selection": true,
       "relative_gradient": false,
       "entries": {
         "FTL": "Unspecified",
@@ -167,14 +220,38 @@
         "588 FTL-N": "Stacked/Slime bars",
         "672 FTL": "Stacked/Slime bars",
         "Day 6 Cannon": "Stacked/Slime bars",
-        "720 FTL-BEDN": "Flat/Slime bars"
+        "720FTL": "Flat/Slime bars",
+        "720FTL-BED": "Flat/Slime bars",
+        "720FTL-BEDN": "Flat/Slime bars"
+      }
+    },
+    "speed": {
+      "property_name": "Speed",
+      "property_description": "",
+      "default_value": "Unspecified",
+      "default_selection": true,
+      "relative_gradient": true,
+      "entries": {
+        "FTL": "Unspecified",
+        "360 FTL": "Unspecified",
+        "420 FTL": "Unspecified",
+        "360 FTL HEAVY": "Unspecified",
+        "End Cannon": "Unspecified",
+        "Void Cannon": "Unspecified",
+        "588 FTL": "Unspecified",
+        "588 FTL-N": "Unspecified",
+        "672 FTL": "Unspecified",
+        "Day 6 Cannon": "Unspecified",
+        "720FTL": "Unspecified",
+        "720FTL-BED": 127,
+        "720FTL-BEDN": 90
       }
     },
     "delta_y": {
       "property_name": "Delta Y",
       "property_description": "",
       "default_value": "Unspecified",
-      "default_selection": false,
+      "default_selection": true,
       "relative_gradient": true,
       "entries": {
         "FTL": "Unspecified",
@@ -194,14 +271,16 @@
           "Pearl": 0.000033675387967946335,
           "Player": -0.00005026682741515742
         },
-        "720 FTL-BEDN": "Unspecified"
+        "720FTL": -0.001523605937507,
+        "720FTL-BED": -0.001523605937507,
+        "720FTL-BEDN": -0.001523605937507
       }
     },
     "encoding": {
       "property_name": "Encoding",
       "property_description": "",
       "default_value": "Unspecified",
-      "default_selection": false,
+      "default_selection": true,
       "entries": {
         "FTL": "None",
         "360 FTL": "Delay",
@@ -213,7 +292,9 @@
         "588 FTL-N": "Delay",
         "672 FTL": "BED",
         "Day 6 Cannon": "BED",
-        "720 FTL-BEDN": "BED"
+        "720FTL": "Delay",
+        "720FTL-BED": "BED",
+        "720FTL-BEDN": "BED"
       }
     }
   }
