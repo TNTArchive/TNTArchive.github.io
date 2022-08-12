@@ -783,7 +783,7 @@ function display_results() {
             return_data += "</tbody></table></td>";
 
         } else {
-            return_data = `<td ${formatting_color(entry, property_name)}>${entry}</td>`;
+            return_data = `<td ${formatting_color(entry, property_name)}>${value_parser(entry)}</td>`;
         }
         return return_data;
     }
@@ -1028,4 +1028,13 @@ function stopPromo() {
 function isNum(val){
     if(val === "") return false;
     return !isNaN(val)
+}
+
+function value_parser(value) {
+    if(isNum(value)) return value;
+    if(typeof value === 'string') {
+        url_regexp = /(https?:\/\/(\w*\.)+\w+\/?[^ ]*)/g;
+        return value.replace(url_regexp, `<a href="$1">$1</a>`);
+    }
+    return value;
 }
