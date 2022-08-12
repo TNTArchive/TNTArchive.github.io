@@ -659,6 +659,9 @@ function display_results() {
                 val_0 = get_value(val_0);
                 val_1 = get_value(val_1);
 
+                val_0 = (isNum(val_0) ? Math.abs(val_0) : val_0);
+                val_1 = (isNum(val_1) ? Math.abs(val_1) : val_1);
+
                 function get_value(value) {
                     if (typeof value == 'object') {
                         return get_value(Object.values(value)[0]);
@@ -833,11 +836,13 @@ function get_all_values(input, unique_only = false) {
 
 function sort_mixed_types(list) {
     return list.sort((a, b) => {
-        if (typeof a == 'number' && typeof b == 'number') {
+        if (isNum(a) && isNum(b)) {
+            a = Math.abs(a);
+            b = Math.abs(b);
             return a - b;
-        } else if (typeof a == 'string' && typeof b == 'number') {
+        } else if (isNum(b)) {
             return -1;
-        } else if (typeof a == 'number' && typeof b == 'string') {
+        } else if (isNum(a)) {
             return 1;
         } else {
             return a.localeCompare(b, undefined, {numeric: true, sensitivity: 'base'});
