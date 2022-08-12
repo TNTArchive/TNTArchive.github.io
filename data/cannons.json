@@ -20,7 +20,7 @@
   },
   "property_structure": [
     "credits",
-    "max_tnt",
+    "total_tnt",
     "duper_size",
     "duper_type",
     "encoding",
@@ -110,8 +110,8 @@
         "720 FTL-BEDN": ["JustDoItWE", "HuangChun", "MasCi1E_Teqze", "黃東Aircross", "LegendsOfSky"]
       }
     },
-    "max_tnt": {
-      "property_name": "Max TNT",
+    "total_tnt": {
+      "property_name": "Total TNT",
       "property_description": "",
       "default_value": "Unspecified",
       "default_selection": false,
