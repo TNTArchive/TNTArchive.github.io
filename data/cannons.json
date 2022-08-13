@@ -30,7 +30,8 @@
     "encoding",
     "speed",
     "rom-size",
-    "delta_y"
+    "delta_y",
+    "basket_layout"
   ],
   "properties": {
     "versions": {
@@ -72,6 +73,8 @@
         "588 FTL-N": "https://youtu.be/4smKw7X3wtM",
         "672 FTL": "https://youtu.be/PSZrJF_poWk",
         "Day 6 Cannon": "Unspecified",
+        "720FTL": "https://www.bilibili.com/video/BV1QQ4y1r7dT",
+        "720FTL-BED": "https://www.bilibili.com/video/BV1QQ4y1r7dT",
         "720FTL-BEDN": "https://www.bilibili.com/video/BV1QQ4y1r7dT"
       }
     },
@@ -318,6 +321,78 @@
         "720FTL": "Delay",
         "720FTL-BED": "BED",
         "720FTL-BEDN": "BED"
+      }
+    },
+    "basket_layout": {
+      "property_name": "Rom Size",
+      "property_description": "",
+      "default_value": "Unspecified",
+      "default_selection": true,
+      "relative_gradient": false,
+      "entries": {
+        "FTL": "Unspecified",
+        "360 FTL": {
+          "Pearl": [0.0,0.0],
+          "North-West TNT": [-0.8849999904632568,-0.8849999904632568],
+          "North-East TNT": [0.8849999904632568,-0.8849999904632568],
+          "South-West TNT": [-0.8849999904632568,0.8849999904632568],
+          "South-East TNT": [0.8849999904632568,0.8849999904632568]},
+        "420 FTL": {
+          "Pearl": [0.0,0.0],
+          "North-West TNT": [-0.8849999904632568,-0.8849999904632568],
+          "North-East TNT": [0.8849999904632568,-0.8849999904632568],
+          "South-West TNT": [-0.8849999904632568,0.8849999904632568],
+          "South-East TNT": [0.8849999904632568,0.8849999904632568]},
+        "360 FTL HEAVY": {
+          "Pearl": [0.0625,0.0625],
+          "North-West TNT": [-0.7599999904632568,-0.7599999904632568],
+          "North-East TNT": [0.8849999904632568,-0.7599999904632568],
+          "South-West TNT": [-0.7599999904632568,0.8849999904632568],
+          "South-East TNT": [0.8849999904632568,0.8849999904632568]},
+        "End Cannon": "Unspecified",
+        "Void Cannon": "Unspecified",
+        "588 FTL": {
+          "Pearl": [0.0,0.0],
+          "North-West TNT": [-0.8849999904632568,-0.8849999904632568],
+          "North-East TNT": [0.8849999904632568,-0.8849999904632568],
+          "South-West TNT": [-0.8849999904632568,0.8849999904632568],
+          "South-East TNT": [0.8849999904632568,0.8849999904632568]},
+        "588 FTL-N": {
+          "Pearl": [0.0,0.0],
+          "North-West TNT": [-0.8849999904632568,-0.8849999904632568],
+          "North-East TNT": [0.8849999904632568,-0.8849999904632568],
+          "South-West TNT": [-0.8849999904632568,0.8849999904632568],
+          "South-East TNT": [0.8849999904632568,0.8849999904632568]},
+        "672 FTL": {
+          "Pearl": [0.0,0.0],
+          "North-West TNT": [-0.8224999904632568,-0.8224999904632568],
+          "North-East TNT": [0.8224999904632568,-0.8224999904632568],
+          "South-West TNT": [-0.8224999904632568,0.8224999904632568],
+          "South-East TNT": [0.8224999904632568,0.8224999904632568]},
+        "Day 6 Cannon": {
+          "Pearl": [0.0,0.0],
+          "North-West TNT": [-0.8849999904632568,-0.8849999904632568],
+          "North-East TNT": [0.8849999904632568,-0.8849999904632568],
+          "South-West TNT": [-0.8849999904632568,0.8849999904632568],
+          "South-East TNT": [0.8849999904632568,0.8849999904632568]},
+        "720FTL": {
+          "Pearl": [0.0625,0.0625],
+          "North-West TNT": [-0.7599999904632568,-0.7599999904632568],
+          "North-East TNT": [0.8849999904632568,-0.7599999904632568],
+          "South-West TNT": [-0.7599999904632568,0.8849999904632568],
+          "South-East TNT": [0.8849999904632568,0.8849999904632568]},
+        "720FTL-BED": {
+          "Pearl": [0.0625,0.0625],
+          "North-West TNT": [-0.7599999904632568,-0.7599999904632568],
+          "North-East TNT": [0.8849999904632568,-0.7599999904632568],
+          "South-West TNT": [-0.7599999904632568,0.8849999904632568],
+          "South-East TNT": [0.8849999904632568,0.8849999904632568]},
+        "720FTL-BEDN": {
+          "Pearl": [0.0625,0.0625],
+          "North-West TNT": [-0.7599999904632568,-0.7599999904632568],
+          "North-East TNT": [0.8849999904632568,-0.7599999904632568],
+          "South-West TNT": [-0.7599999904632568,0.8849999904632568],
+          "South-East TNT": [0.8849999904632568,0.8849999904632568]}
       }
     }
   }
