@@ -1034,7 +1034,7 @@ function value_parser(value) {
     if(isNum(value)) return value;
     if(typeof value === 'string') {
         url_regexp = /(https?:\/\/(\w*\.)+\w+\/?[^ ]*)/g;
-        return value.replace(url_regexp, `<a href="$1">$1</a>`);
+        return value.replace(url_regexp, `<a href="$1" target="_blank" rel="noopener noreferrer">$1</a>`);
     }
     return value;
 }
