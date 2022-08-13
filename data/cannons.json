@@ -244,7 +244,10 @@
         "Void Cannon": "Unspecified",
         "588 FTL": "Unspecified",
         "588 FTL-N": "Unspecified",
-        "672 FTL": "Unspecified",
+        "672 FTL": {
+          "Pearl": 206,
+          "Player": 231
+        },
         "Day 6 Cannon": "Unspecified",
         "720FTL": "Unspecified",
         "720FTL-BED": 127,
@@ -292,7 +295,10 @@
         "588 FTL-N": {
           "Pearl": -0.001523605937507
         },
-        "672 FTL": "Unspecified",
+        "672 FTL": {
+          "Pearl": -0.001523605937507,
+          "Player": -0.19588652739982138
+        },
         "Day 6 Cannon": {
           "Pearl": 0.000033675387967946335,
           "Player": -0.00005026682741515742
@@ -324,7 +330,7 @@
       }
     },
     "basket_layout": {
-      "property_name": "Rom Size",
+      "property_name": "Basket Layout",
       "property_description": "",
       "default_value": "Unspecified",
       "default_selection": true,
